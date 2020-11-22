@@ -1,5 +1,10 @@
 language: java
 jdk:
-  - openjdk15
+- openjdk15
 services:
-  - docker
+- docker
+deploy:
+  provider: heroku
+  api_key:
+    secure: md/b+pfwnodvR2JH6rgJHGBEJJdB4kA7T3v6JpCYdYnA8JUVf0o3EVtaEQjrQFey33qwzwIi7X4b7PjXFfhf9ZoPNT8kuaXi/77HnzewPA54A7XoMdgD8wRb2LCWKykjBoP7ITcM6GkWodyYTt9W64WSJtrLNOQiS2mLZAb1tO7S6ILc0FQxtQ86JcJSu+b1dNRHRJgtVgEYByP3/h8N6X9DCY+FcfbcL6J4Qq4O/sQW62QjcbjWgoMY9wFYMTq3XPzN0lfRm0BtkHIiWfo+EQeQq9Hz8hIaJJcaOlmw5ERkFwOpjV9AcUt0TS7lAgWmQKeexlQyjqTTL4fI+C7pnM/WsKW8/4esS2q6xJHpC9V0CfT6xLouc9VR92lFMRMJ8klJjSQOw2xB7I5F2omY1o5IaK+URF3IQotqfGF1Pm9q2hwGwfUdohsAz8RkuZ4ZkOJGmh5+hGkbs8t7JU3lvuccSNYevtQbtRGft2e6yKPjLmX019prazBGcddDfBsYOPps0kW7a6ZsTVD8Gb0uLFoFSIB1HwxlGAgTIzp3Vg921NSRu/aROGlHft7KVUTjQp2o6nSYcnGM4V/0T5Vxw+Sl8gx6AGb1cz9ThHy2NW6fK+krtklnZhDnzdeSytqm0Qhu7YZZqgUJuxwk//eVR3ywR2TsSxgxNfAjnPvgoF0=
+  app: theregistry
