@@ -1,3 +1,5 @@
 language: java
 jdk:
   - openjdk15
+services:
+  - docker
