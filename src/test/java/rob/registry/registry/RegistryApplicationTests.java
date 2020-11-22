@@ -9,14 +9,14 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootTest
 class RegistryApplicationTests {
 
-	@Test
-	void contextLoads() {
-		try {
-			new RestTemplate().exchange("http://localhost:5432", HttpMethod.GET, null, String.class);
+//	@Test
+//	void contextLoads() {
+//		try {
+//			new RestTemplate().exchange("http://localhost:5432", HttpMethod.GET, null, String.class);
+//
+//		} catch(Exception e) {
+//			System.out.println("robrobrob" + e);
+//		}
 
-		} catch(Exception e) {
-			System.out.println("robrobrob" + e);
-		}
-
-	}
+//	}
 }
